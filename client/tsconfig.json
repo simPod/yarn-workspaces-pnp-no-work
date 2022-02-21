@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "target": "es2018",
+    "module": "commonjs",
+    "lib": ["dom", "es2019"],
+    "allowJs": true,
+    "jsx": "react",
+    "forceConsistentCasingInFileNames": true,
+    "suppressImplicitAnyIndexErrors": true,
+    "sourceMap": true,
+    "incremental": true,
+    "outDir": "./public/dist",
+    "strict": true,
+    "noImplicitReturns": true,
+    "skipLibCheck": true,
+    "strictFunctionTypes": false,
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "baseUrl": "."
+  },
+  "include": ["**/*.ts", "**/*.tsx"]
+}
